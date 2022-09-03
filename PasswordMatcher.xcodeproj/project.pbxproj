@@ -16,6 +16,7 @@
 		71A3660B28C34B63001AEA1B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3660A28C34B63001AEA1B /* ViewModel.swift */; };
 		71A3660E28C34D39001AEA1B /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 71A3660D28C34D39001AEA1B /* Then */; };
 		71A3661128C34D4A001AEA1B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 71A3661028C34D4A001AEA1B /* SnapKit */; };
+		71A3661428C35178001AEA1B /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3661328C35178001AEA1B /* UITextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		71A3660228C347D9001AEA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A3660428C347D9001AEA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71A3660A28C34B63001AEA1B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		71A3661328C35178001AEA1B /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		71A365F528C347D8001AEA1B /* PasswordMatcher */ = {
 			isa = PBXGroup;
 			children = (
+				71A3661228C3516E001AEA1B /* Extension */,
 				71A365F628C347D8001AEA1B /* AppDelegate.swift */,
 				71A365F828C347D8001AEA1B /* SceneDelegate.swift */,
 				71A365FA28C347D8001AEA1B /* ViewController.swift */,
@@ -72,6 +75,14 @@
 				71A3660A28C34B63001AEA1B /* ViewModel.swift */,
 			);
 			path = PasswordMatcher;
+			sourceTree = "<group>";
+		};
+		71A3661228C3516E001AEA1B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				71A3661328C35178001AEA1B /* UITextFieldExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A3661428C35178001AEA1B /* UITextFieldExtension.swift in Sources */,
 				71A365FB28C347D8001AEA1B /* ViewController.swift in Sources */,
 				71A365F728C347D8001AEA1B /* AppDelegate.swift in Sources */,
 				71A3660B28C34B63001AEA1B /* ViewModel.swift in Sources */,
