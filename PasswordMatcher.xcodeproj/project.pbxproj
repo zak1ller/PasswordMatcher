@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7126260E28C5C92100432BC6 /* PublishersExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126260D28C5C92100432BC6 /* PublishersExtension.swift */; };
+		7126261028C5C95500432BC6 /* UIControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126260F28C5C95500432BC6 /* UIControlExtension.swift */; };
 		71A365F728C347D8001AEA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A365F628C347D8001AEA1B /* AppDelegate.swift */; };
 		71A365F928C347D8001AEA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A365F828C347D8001AEA1B /* SceneDelegate.swift */; };
 		71A365FB28C347D8001AEA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A365FA28C347D8001AEA1B /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7126260D28C5C92100432BC6 /* PublishersExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersExtension.swift; sourceTree = "<group>"; };
+		7126260F28C5C95500432BC6 /* UIControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlExtension.swift; sourceTree = "<group>"; };
 		71A365F328C347D8001AEA1B /* PasswordMatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordMatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A365F628C347D8001AEA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A365F828C347D8001AEA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,11 +72,11 @@
 				71A365F628C347D8001AEA1B /* AppDelegate.swift */,
 				71A365F828C347D8001AEA1B /* SceneDelegate.swift */,
 				71A365FA28C347D8001AEA1B /* ViewController.swift */,
+				71A3660A28C34B63001AEA1B /* ViewModel.swift */,
 				71A365FC28C347D8001AEA1B /* Main.storyboard */,
 				71A365FF28C347D9001AEA1B /* Assets.xcassets */,
 				71A3660128C347D9001AEA1B /* LaunchScreen.storyboard */,
 				71A3660428C347D9001AEA1B /* Info.plist */,
-				71A3660A28C34B63001AEA1B /* ViewModel.swift */,
 			);
 			path = PasswordMatcher;
 			sourceTree = "<group>";
@@ -80,7 +84,9 @@
 		71A3661228C3516E001AEA1B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7126260F28C5C95500432BC6 /* UIControlExtension.swift */,
 				71A3661328C35178001AEA1B /* UITextFieldExtension.swift */,
+				7126260D28C5C92100432BC6 /* PublishersExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7126260E28C5C92100432BC6 /* PublishersExtension.swift in Sources */,
+				7126261028C5C95500432BC6 /* UIControlExtension.swift in Sources */,
 				71A3661428C35178001AEA1B /* UITextFieldExtension.swift in Sources */,
 				71A365FB28C347D8001AEA1B /* ViewController.swift in Sources */,
 				71A365F728C347D8001AEA1B /* AppDelegate.swift in Sources */,
